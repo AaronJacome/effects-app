@@ -37,8 +37,7 @@ export function usuarioReducer(state = estadoInicial, action: fromUsuario.usuari
                 ...state,
                 loading: false,
                 loaded: false,
-                error: action.payload,
-                user:{}
+                error: action.payload
             }
 
         default:
